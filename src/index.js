@@ -24,6 +24,12 @@ ReactDOM.render(
       phone={contacts[2].phone}
       email={contacts[2].email}
     />
+    <App
+      name={contacts[3].name}
+      img={contacts[3].imgURL}
+      phone={contacts[3].phone}
+      email={contacts[3].email}
+    />
   </div>,
   document.getElementById("root")
 );
